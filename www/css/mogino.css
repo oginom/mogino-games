@@ -1,0 +1,161 @@
+body {
+	-webkit-text-size-adjust: 100%;
+	font-size: 3.5vw;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.unselectable {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.unoverflow {
+	white-spce: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+#header {
+	position: fixed !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #FF3;
+	text-align: right;
+}
+#footer {
+	position: fixed !important;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	background-color: #FF3;
+	text-align: center;
+}
+.block {
+	background-color: #CF0;
+	text-align: center;
+	height: auto;
+	margin: 2vw 0vw;
+	overflow: hidden;
+}
+.block div {
+	padding-bottom: 32767px;
+	margin-bottom: -32767px;
+}
+.usericon {
+	width: 16vw;
+	height: auto;
+}
+
+
+
+
+
+body{
+	background:#FFF;	/* 背景一括指定 */
+	background-image: -moz-linear-gradient(top, #F92, #F92);
+	//background-image: -webkit-gradient(linear, left top,left bottom, color-stop(0.0, #FFF), color-stop(1.0, #0FF));
+	//width:800px;	/* 表示の横幅 */
+}
+
+header{
+	display: block;
+	text-align: right;
+	width: 10vw;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20vw;
+}
+
+h1 {
+	background:#000;
+	color:#F92;	
+	
+	font-family:"arial black";
+	width:500vx;
+	/* margin-left:10%;	/* 左マージン */
+	margin-top: 0;
+	margin-bottom: 10vx;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	/* -webkit-box-shadow:-5px 5px 5px #000 /**/
+}
+
+.pagetitlecolor {
+	background:#000;
+	color:#F92;	
+}
+
+h2 {
+	background: #F92;
+	color:#000;
+	
+	font-family:"arial";
+	text-align: center;
+	/* height: 20vw; /**/
+}
+
+.gamenamecolor {
+	background: #F92;
+	color:#000;
+}
+
+section {
+	background: #294;
+	
+	font-family: "arial";
+	float: left;	/* フロートと回り込み */
+	width: 46%;	/* 表示の横幅 */
+	padding: 1%;	/* パディング一括指定 */
+	margin: 1%;	/* マージン一括指定 */
+}
+
+vsection {
+	background: #F92; /**/
+	font-family: "arial";
+	width: 96%;	/* 表示の横幅 */
+	padding: 1%;	/* パディング一括指定 */
+	margin: 1%;	/* マージン一括指定 */
+}
+
+gamesection {
+	font-family:"arial";
+	float: left;
+	width:96%;	/* 表示の横幅 */
+	padding:2%;	/* パディング一括指定 */
+	margin-top:3vw;
+	margin-bottom:2vw;
+	-webkit-box-shadow: -5px 5px 5px #000;
+}
+
+.hardlecolor {
+	background: #CFF;
+}
+
+.ogipacolor {
+	background: #DFD;
+
+p {
+        /* font-variant: small-caps; /**/
+}
+
+@media screen and (max-width: 480px){
+	.unselectable {
+		background-color: #00F;
+	}
+	header {
+		text-align:left;
+		margin-right: auto;
+		width: 30vw;
+		background-color: #0F0;
+	}
+}
