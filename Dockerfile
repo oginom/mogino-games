@@ -18,7 +18,10 @@ RUN mkdir -p /var/log/app_engine
 # to be explicit.
 RUN mkdir -p /usr/share/nginx/www/_ah && \
     echo "healthy" > /usr/share/nginx/www/_ah/health
+RUN mkdir -p /usr/share/nginx/error_page
 
 # Finally, all static assets.
 ADD www/ /usr/share/nginx/www/
+ADD error_page/ /usr/share/nginx/error_page/
 RUN chmod -R a+r /usr/share/nginx/www
+RUN chmod -R a+r /usr/share/nginx/error_page
