@@ -79,7 +79,7 @@ h1 {
 	background:#000;
 	color:#F92;	
 	
-	font-family:"arial black";
+	font-family:"arial black", sans-serif;
 	width:500vx;
 	/* margin-left:10%;	/* 左マージン */
 	margin-top: 0;
@@ -99,7 +99,7 @@ h2 {
 	background: #F92;
 	color:#000;
 	
-	font-family:"arial";
+	font-family:"arial", sans-serif;
 	text-align: center;
 	/* height: 20vw; /**/
 }
@@ -112,7 +112,7 @@ h2 {
 section {
 	background: #294;
 	
-	font-family: "arial";
+	font-family: "arial", sans-serif;
 	float: left;	/* フロートと回り込み */
 	width: 46%;	/* 表示の横幅 */
 	padding: 1%;	/* パディング一括指定 */
@@ -121,14 +121,14 @@ section {
 
 vsection {
 	background: #F92; /**/
-	font-family: "arial";
+	font-family: "arial", sans-serif;
 	width: 96%;	/* 表示の横幅 */
 	padding: 1%;	/* パディング一括指定 */
 	margin: 1%;	/* マージン一括指定 */
 }
 
 gamesection {
-	font-family:"arial";
+	font-family:"arial", sans-serif;
 	float: left;
 	width:96%;	/* 表示の横幅 */
 	padding:2%;	/* パディング一括指定 */
