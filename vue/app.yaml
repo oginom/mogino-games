@@ -6,3 +6,10 @@ handlers:
 - url: /.*
   static_files: dist/index.html
   upload: dist/index.html
+skip_files:
+- node_modules/
+- public/
+- src/
+- .gitignore
+- babel.config.js
+- ^(.*/)?\..*$
