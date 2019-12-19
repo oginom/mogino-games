@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">
+        <img alt="mogino games icon" src="@/assets/ogigames6.png" />
+      </router-link>
     </div>
     <router-view />
   </div>
@@ -18,15 +19,13 @@
 }
 
 #nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  display: block;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
+}
+#nav img {
+  width: 100%;
 }
 </style>
